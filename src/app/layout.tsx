@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 const libreBaskerville = Libre_Baskerville({
   subsets: ['latin', 'latin-ext'],
   weight: ['400', '700'], // elegí los pesos que necesites
+  style: ['normal', 'italic'], // <-- agrega esto
 });
 
 export default function RootLayout({

@@ -28,7 +28,15 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="w-100 h-100 bg-amber-500 "></div>
+      <div>
+        <div className="w-100 h-100 bg-amber-500 "></div>
+
+        <p className="text-center text-2xl italic text-[var(--buttons-and-headings)]">
+          Más de 20 años dedicados
+          <br />
+          Exclusivamente a la defensa penal
+        </p>
+      </div>
     </header>
   );
 };
