@@ -1,6 +1,6 @@
-import Image from 'next/image';
 import Navbar from '@/app/components/Navbar';
 import Header from '@/app/components/Header';
+import MiddleCta from '@/app/components/MiddleCta';
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
         ]}
       />
       <Header />
+      <MiddleCta />
     </div>
   );
 }
