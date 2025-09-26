@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <header className="text-black px-10 py-20  grid gap-10 xl:grid-cols-[1fr_1fr]">
-      <div className="grid gap-5">
+    <header className="text-black px-10 py-20 grid gap-10 xl:grid-cols-[1fr_1fr] xl:px-50 items-center">
+      <div className="grid h-fit gap-10">
         <p className="text-4xl">Dr Alejandra Noemi Queiruga</p>
         <div>
           <div className="grid gap-5">

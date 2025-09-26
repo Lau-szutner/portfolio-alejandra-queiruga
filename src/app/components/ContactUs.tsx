@@ -29,7 +29,7 @@ const ContactUs = () => {
   ];
 
   return (
-    <section className="text-black px-10 py-20 grid gap-10 ">
+    <section className="text-black px-10 py-20 grid gap-10 xl:px-50 items-center">
       <div>
         <h2 className="text-3xl">Cuándo llamar</h2>
         <p>
@@ -37,9 +37,15 @@ const ContactUs = () => {
           necesitan defensa penal en Argentina.
         </p>
       </div>
-      {tarjetas.map((tarjeta, idx) => (
-        <ContactCard key={idx} heading={tarjeta.heading} text={tarjeta.text} />
-      ))}
+      <div className="grid grid-cols-3 gap-10 place-items-evenly">
+        {tarjetas.map((tarjeta, idx) => (
+          <ContactCard
+            key={idx}
+            heading={tarjeta.heading}
+            text={tarjeta.text}
+          />
+        ))}
+      </div>
     </section>
   );
 };
