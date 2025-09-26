@@ -2,7 +2,9 @@ import Navbar from '@/app/components/Navbar';
 import Header from '@/app/components/Header';
 import MiddleCta from '@/app/components/MiddleCta';
 import About from '@/app/components/About';
-import ContactUs from '@/app/components/ContactUs';
+import Cases from '@/app/components/Cases';
+import ContactMe from './components/ContactMe';
+import Footer from '@/app/components/Footer';
 export default function Home() {
   return (
     <div className="h-full grid">
@@ -20,7 +22,14 @@ export default function Home() {
       />
       <About />
       <div className="h-12 bg-[var(--background-black)]"></div>
-      <ContactUs />
+      <Cases />
+      <MiddleCta
+        heading="No pongas en peligro tu libertad"
+        text="Si enfrentás una situación penal, no esperes:
+una defensa temprana puede marcar la diferencia."
+      />
+      <ContactMe />
+      <Footer />
     </div>
   );
 }
