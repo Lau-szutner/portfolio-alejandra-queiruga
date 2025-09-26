@@ -4,7 +4,7 @@ import Image from 'next/image';
 const About = () => {
   return (
     <section
-      className="text-black px-10 py-20 grid gap-10 xl:grid-cols-[1fr_1fr] place-items-center xl:px-50"
+      className="text-black px-10 py-50 grid gap-10 xl:grid-cols-[1fr_1fr] place-items-center xl:px-40"
       id="mi-carrera"
     >
       <div className="grid gap-20">
@@ -23,7 +23,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid gap-10">
+        <div className="grid gap-10 place-items-center">
           <div className="grid grid-cols-2 place-items-center">
             <div className="font-bold">
               <p className="text-[var(--buttons-headings)] text-2xl text-center">
@@ -39,7 +39,7 @@ const About = () => {
             </div>
           </div>
           <div className="place-items-center font-bold">
-            <p className="text-[var(--buttons-headings)] text-2xl">
+            <p className="text-[var(--buttons-headings)] text-2xl text-center">
               Mis valores:
             </p>
             <p>Confianza, etica, compromiso, respeto</p>

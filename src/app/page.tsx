@@ -15,11 +15,13 @@ export default function Home() {
           { label: 'Contacto', href: '#contacto' },
         ]}
       />
-      <Header />
-      <MiddleCta
-        heading="Defensa inmediata para tu caso"
-        text="Agendamos una sita hoy mismo"
-      />
+      <div>
+        <Header />
+        <MiddleCta
+          heading="Defensa inmediata para tu caso"
+          text="Agendamos una sita hoy mismo"
+        />
+      </div>
       <About />
       <div className="h-12 bg-[var(--background-black)]"></div>
       <Cases />

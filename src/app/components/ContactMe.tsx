@@ -5,7 +5,7 @@ const ContactMe = () => {
     <section
       id="contacto"
       aria-labelledby="contact-heading"
-      className="px-10 p-20 grid gap-10 xl:grid-cols-[1fr_1fr] place-items-evenly xl:px-50"
+      className="px-10 p-20 grid gap-40 xl:gap-10 xl:grid-cols-[1fr_1fr] place-items-evenly xl:px-50"
     >
       <div>
         <h3 id="contact-heading" className="text-4xl mb-4 text-black">

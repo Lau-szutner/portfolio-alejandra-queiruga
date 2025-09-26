@@ -15,7 +15,7 @@ const Navbar = ({ links }: NavbarProps) => {
 
   return (
     <nav className="flex justify-between items-center p-5 bg-[var(--background-black)] h-fit fixed top-0 w-full z-50">
-      <a href="#home" className="font-bold text-white">
+      <a href="#home" className="font-bold text-white md:text-xl text-2xl">
         Dra. Aleandra Noemí Queiruga
       </a>
       {/* Desktop menu */}

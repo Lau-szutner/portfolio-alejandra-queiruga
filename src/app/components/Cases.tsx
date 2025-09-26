@@ -30,7 +30,7 @@ const tarjetas = [
 const Cases = () => {
   return (
     <section
-      className="text-black px-10 py-20 grid gap-10 xl:px-50 items-center"
+      className="text-black px-10 py-40 grid gap-10 xl:px-50 items-center"
       id="cuando-llamar"
     >
       <div>
@@ -40,7 +40,7 @@ const Cases = () => {
           necesitan <strong>defensa penal en Argentina.</strong>
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 place-items-center md:place-items-evenly">
+      <div className="grid grid-cols-2 xl:grid-cols-3 gap-10 place-items-center md:place-items-evenly">
         {tarjetas.map((tarjeta, idx) => (
           <ContactCard
             key={idx}
