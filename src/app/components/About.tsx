@@ -23,8 +23,8 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid gap-10 place-items-center">
-          <div className="grid grid-cols-2 place-items-center">
+        <div className="grid gap-10 place-items-center text-center">
+          <div className="grid grod-cols-1 md:grid-cols-2 place-items-center gap-5">
             <div className="font-bold">
               <p className="text-[var(--buttons-headings)] text-2xl text-center">
                 1240+
@@ -38,8 +38,8 @@ const About = () => {
               <p>Años de experiencia</p>
             </div>
           </div>
-          <div className="place-items-center font-bold">
-            <p className="text-[var(--buttons-headings)] text-2xl text-center">
+          <div className="font-bold grid grid-cols-1">
+            <p className="text-[var(--buttons-headings)] text-2xl">
               Mis valores:
             </p>
             <p>Confianza, etica, compromiso, respeto</p>

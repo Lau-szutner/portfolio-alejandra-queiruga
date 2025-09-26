@@ -4,7 +4,7 @@ import './globals.css';
 import Head from 'next/head';
 
 export const metadata: Metadata = {
-  title: 'Alejandra Noemi Queiruga',
+  title: 'Alejandra Queiruga | Abogada Penalista',
   description: 'Portfolio de la Abogada Alejandra Noemi Queiruga',
 };
 

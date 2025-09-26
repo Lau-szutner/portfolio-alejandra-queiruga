@@ -41,10 +41,10 @@ const Header = () => {
         </div>
 
         <div className="w-full grid gap-5 md:grid-cols-2">
-          <button className="bg-[var(--blue-btn)] text-white px-15 py-4 cursor-pointer w-full xl:w-fit">
+          <button className="bg-[var(--blue-btn)] text-white px-15 py-4 cursor-pointer w-full xl:w-fit hover:scale-110 transition-transform duration-300">
             Enviar email
           </button>
-          <button className="bg-[var(--green-btn)] text-white px-15 py-4 cursor-pointer w-full xl:w-fit">
+          <button className="bg-[var(--green-btn)] text-white px-15 py-4 cursor-pointer w-full xl:w-fit hover:scale-110 transition-transform duration-300">
             Enviar email
           </button>
         </div>

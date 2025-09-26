@@ -33,7 +33,7 @@ const Cases = () => {
       className="text-black px-10 py-40 grid gap-10 xl:px-50 items-center"
       id="cuando-llamar"
     >
-      <div>
+      <div className="grid gap-5">
         <h2 className="text-3xl">Cuándo llamar</h2>
         <p>
           Estos son algunos de los motivos más comunes por los que las personas
