@@ -9,7 +9,7 @@ type NavbarProps = {
 
 const Navbar = ({ links }: NavbarProps) => {
   return (
-    <nav className="flex justify-between p-5 bg-[var(--background-black)]">
+    <nav className="flex justify-between p-5 bg-[var(--background-black)] h-fit">
       <a href="#home">Dra. Aleandra Noemí Queiruga</a>
       <ul className="flex gap-10">
         {links.map((link) => (

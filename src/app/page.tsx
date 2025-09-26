@@ -1,10 +1,11 @@
 import Navbar from '@/app/components/Navbar';
 import Header from '@/app/components/Header';
 import MiddleCta from '@/app/components/MiddleCta';
-
+import About from '@/app/components/About';
+import ContactUs from '@/app/components/ContactUs';
 export default function Home() {
   return (
-    <div>
+    <div className="h-full grid">
       <Navbar
         links={[
           { label: 'Mi carrera', href: '#mi-carrera' },
@@ -13,7 +14,13 @@ export default function Home() {
         ]}
       />
       <Header />
-      <MiddleCta />
+      <MiddleCta
+        heading="Defensa inmediata para tu caso"
+        text="Agendamos una sita hoy mismo"
+      />
+      <About />
+      <div className="h-12 bg-[var(--background-black)]"></div>
+      <ContactUs />
     </div>
   );
 }

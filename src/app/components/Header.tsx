@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <header className="text-black px-10 py-20 h-full grid gap-10 xl:grid-cols-[1fr_1fr]">
+    <header className="text-black px-10 py-20  grid gap-10 xl:grid-cols-[1fr_1fr]">
       <div className="grid gap-5">
         <p className="text-4xl">Dr Alejandra Noemi Queiruga</p>
         <div>
@@ -35,6 +35,7 @@ const Header = () => {
           alt="foto de la abogada"
           width={500}
           height={500}
+          className="border-4 border-b-black"
         />
         <p className="text-center text-2xl italic text-[var(--buttons-and-headings)]">
           Más de 20 años dedicados
