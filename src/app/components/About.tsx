@@ -3,7 +3,10 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <section className="text-black px-10 py-20 grid gap-10 xl:grid-cols-[1fr_1fr] place-items-center xl:px-50">
+    <section
+      className="text-black px-10 py-20 grid gap-10 xl:grid-cols-[1fr_1fr] place-items-center xl:px-50"
+      id="mi-carrera"
+    >
       <div className="grid gap-20">
         <div className="grid gap-5">
           <h2 className="text-4xl">Mi carrera</h2>

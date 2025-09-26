@@ -29,7 +29,10 @@ const tarjetas = [
 
 const Cases = () => {
   return (
-    <section className="text-black px-10 py-20 grid gap-10 xl:px-50 items-center">
+    <section
+      className="text-black px-10 py-20 grid gap-10 xl:px-50 items-center"
+      id="cuando-llamar"
+    >
       <div>
         <h2 className="text-3xl">Cuándo llamar</h2>
         <p>

@@ -3,6 +3,7 @@ import Image from 'next/image';
 const ContactMe = () => {
   return (
     <section
+      id="contacto"
       aria-labelledby="contact-heading"
       className="px-10 p-20 grid gap-10 xl:grid-cols-[1fr_1fr] place-items-evenly xl:px-50"
     >
