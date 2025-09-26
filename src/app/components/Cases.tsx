@@ -40,7 +40,7 @@ const Cases = () => {
           necesitan <strong>defensa penal en Argentina.</strong>
         </p>
       </div>
-      <div className="grid grid-cols-2 xl:grid-cols-3 gap-10 place-items-center md:place-items-evenly">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 place-items-center md:place-items-evenly">
         {tarjetas.map((tarjeta, idx) => (
           <ContactCard
             key={idx}

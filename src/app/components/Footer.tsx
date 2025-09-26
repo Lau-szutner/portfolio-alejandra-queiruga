@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="grid text-white bg-[var(--background-black)] grid  gap-20 md:grid-cols-3 place-items-center p-5">
+    <footer className="grid text-white bg-[var(--background-black)] lg:grid-cols-3 place-items-center p-5 gap-10 ">
       <div className="flex gap-10 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"

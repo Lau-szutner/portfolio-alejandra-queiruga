@@ -7,7 +7,7 @@ import ContactMe from './components/ContactMe';
 import Footer from '@/app/components/Footer';
 export default function Home() {
   return (
-    <div className="h-full grid">
+    <div className="grid">
       <Navbar
         links={[
           { label: 'Mi carrera', href: '#mi-carrera' },
