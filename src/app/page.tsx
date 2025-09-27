@@ -5,6 +5,7 @@ import About from '@/app/components/About';
 import Cases from '@/app/components/Cases';
 import ContactMe from './components/ContactMe';
 import Footer from '@/app/components/Footer';
+
 export default function Home() {
   return (
     <div className="grid">
