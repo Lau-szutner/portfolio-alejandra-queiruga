@@ -41,12 +41,20 @@ const Header = () => {
         </div>
 
         <div className="w-full grid gap-5 md:grid-cols-2">
-          <button className="bg-[var(--blue-btn)] text-white px-15 py-4 cursor-pointer w-full xl:w-fit hover:scale-110 transition-transform duration-300">
-            Enviar email
-          </button>
-          <button className="bg-[var(--green-btn)] text-white px-15 py-4 cursor-pointer w-full xl:w-fit hover:scale-110 transition-transform duration-300">
-            Enviar email
-          </button>
+          <a
+            href="mailto:alejandraqueiruga@gmail.com?subject=Consulta%20sobre%20defensa%20penal&body=Hola%20Dra.%20Queiruga%2C%0D%0A%0D%0AVi%20su%20p%C3%A1gina%20web%20y%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20en%20defensa%20penal.%0D%0A%0D%0AQuedo%20a%20su%20disposici%C3%B3n.%0D%0A%0D%0AMuchas%20gracias."
+            className="bg-[var(--blue-btn)] text-white font-bold cursor-pointer xl:w-[300px] hover:scale-110 transition-transform duration-300 flex items-center justify-center text-center h-[70px]"
+          >
+            Enviar Email
+          </a>
+
+          <a
+            href="https://wa.me/5491126930421?text=Hola%2C%20vi%20tu%20p%C3%A1gina%20y%20me%20interesa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20tus%20servicios%20en%20defensa%20penal.%20Me%20gustar%C3%ADa%20saber%20c%C3%B3mo%20trabaj%C3%A1s%20y%20en%20qu%C3%A9%20casos%20pod%C3%A9s%20asistir.%20Gracias."
+            target="_blank"
+            className="bg-[var(--green-btn)] text-white font-bold cursor-pointer xl:w-[300px] hover:scale-110 transition-transform duration-300 flex items-center justify-center text-center h-[70px]"
+          >
+            Contactar por WhatsApp
+          </a>
         </div>
       </div>
 
