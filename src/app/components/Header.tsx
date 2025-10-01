@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Header = () => {
   return (
     <header
-      className="text-black px-10 py-20 pt-40 grid gap-10 xl:grid-cols-[1fr_1fr] xl:px-50 items-center"
+      className="text-black px-10 md:py-20 xl:py-0 h-screen pt-40  xl:px-50 grid gap-10 xl:grid-cols-[1fr_1fr] items-center"
       id="home"
     >
       <div className="grid h-fit gap-10">

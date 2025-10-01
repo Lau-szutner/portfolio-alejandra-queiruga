@@ -18,10 +18,11 @@ export default function Home() {
       />
       <div>
         <Header />
-        <MiddleCta
+        <div className="h-12 bg-[var(--background-black)]"></div>
+        {/* <MiddleCta
           heading="Defensa inmediata para tu caso"
           text="Agendamos una sita hoy mismo"
-        />
+        /> */}
       </div>
       <About />
       <div className="h-12 bg-[var(--background-black)]"></div>
